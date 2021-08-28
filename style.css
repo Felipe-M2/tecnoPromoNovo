@@ -16,6 +16,8 @@
 
 html{
     scroll-behavior: smooth;
+    max-width: 1500px;
+    width: 100%;
 }
 
 body{
@@ -117,6 +119,7 @@ header h1{
 .produto{
     width: 210px;
     display: inline-block;
+    margin: 20px;
 }
 
 .preço h4, p{
@@ -130,7 +133,12 @@ main h1{
 
 .produto a img{
     width: 200px;
+    height: 200px;
 }
+
+.produto a{
+    margin: auto;
+} 
 
 .redirect{
     display: block;
@@ -148,7 +156,7 @@ main h1{
 }
 
 .produto:hover{
-    border: 1px solid #000;
+    border: 1px solid;
 }
 
 /* rodape */

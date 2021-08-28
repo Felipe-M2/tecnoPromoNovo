@@ -4,6 +4,9 @@ function infoMenu(){
     } else{
         info.style.display = "block"
     }
+
+    document.getElementById("anunciarMenu").style.display = "none";
+    document.getElementById("reclamacaoMenu").style.display = "none";
 }
 
 function anunciar(){
@@ -12,6 +15,9 @@ function anunciar(){
     } else{
         anunciarMenu.style.display = "block"
     }
+
+    document.getElementById("info").style.display = "none";
+    document.getElementById("reclamacaoMenu").style.display = "none";
 }
 
 function reclamacao(){
@@ -20,4 +26,7 @@ function reclamacao(){
     } else{
         reclamacaoMenu.style.display = "block"
     }
+
+    document.getElementById("info").style.display = "none";
+    document.getElementById("anunciarMenu").style.display = "none";
 }
