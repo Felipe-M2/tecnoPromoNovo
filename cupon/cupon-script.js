@@ -16,3 +16,4 @@ function cupon3(){
     document.getElementById("cuponBotao3").style.display = "none";
     document.getElementById("cuponRevelado3").style.display = "block";
 }
+

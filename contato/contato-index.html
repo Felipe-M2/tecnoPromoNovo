@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tecnoPromo | Contato</title>
+    <link rel="stylesheet" href="contato-style.css">
+</head>
+<body>
+    <!-- topo -->
+    <header>
+        <h2>Contato</h2>
+        <p><a href="../index.html">Home</a></p>
+        <h1>tecnoPromo</h1>
+    </header>
+
+    <!-- form -->
+    <main class="seleçao">
+        <section>
+            <img src="../imagens/Contact us-cuate.svg" alt="">
+        </section>
+
+        <section class="selecao-form">
+
+            <div onclick="infoMenu()">
+
+                <a href="#info">
+                    <h1>Informaçoes!</h1>
+                    <p>Deseja saber mais sobre nós? clica aqui e fassa sua pergunta, ficaremos muito felizes em te atender!</p>
+                </a>
+
+            </div>
+
+            <div onclick="anunciar()">
+
+                <a href="#anunciarMenu">
+                    <h1>Quero anunciar!</h1>
+                    <p>Tem interece em anunciar na nossa plataforma? é de graça, clica aqui e leia as instruçoes e os requisitos!</p>
+                </a>
+
+            </div>
+
+            <div onclick="reclamacao()">
+
+                <a href="#reclamacaoMenu">
+                    <h1>Reclamação</h1>
+                    <p>Ficamos triste em saber que voçe teve problema com a nossa plataforma, clica aqui e me conta o que aconteceu, farei o maximo para resolver seu problema!</p>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- formulario -->
+    <form action="" id="info">
+        <h1>Informação</h1>
+        <div>
+            <label for="">Qual o seu nome?</label>
+            <input type="text" placeholder="nome:">
+        </div>
+
+        <div>
+            <label for="">você deseja receber a resposta por:</label>
+            <p onclick="zap()">whatsApp:</p>
+            <p onclick="menuEmail()">Email:</p>
+        </div>
+
+        <div id="email">
+            <label for="">Qual o seu Email?</label>
+            <input type="text" placeholder="email:">
+        </div>
+
+        <div id="menuZap1">
+            <label for="">Qual o seu WhatsApp?</label>
+            <input type="text" placeholder="WhatsApp:">
+        </div>
+
+        <div>
+            <label for="">digite aqui a Sua pergunta:</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+
+    <!-- anunciar -->
+    <form action="" id="anunciarMenu">
+        <h1>Anunciar</h1>
+        <div>
+            <label for="">Qual o seu nome?</label>
+            <input type="text" placeholder="nome:">
+        </div>
+
+        <div>
+            <label for="">você deseja receber a resposta por:</label>
+            <p onclick="zap1()">whatsApp:</p>
+            <p onclick="email1()">Email:</p>
+        </div>
+
+        <div id="email2">
+            <label for="">Qual o seu Email?</label>
+            <input type="text" placeholder="email:">
+        </div>
+
+        <div id="zap2">
+            <label for="">Qual o seu WhatsApp?</label>
+            <input type="text" placeholder="WhatsApp:">
+        </div>
+
+        <div>
+            <label for="">me envia as fotos do produto!</label>
+            <input type="file" name="" id="">
+        </div>
+
+        <div>
+            <label for="">Qual o seu endereço?</label>
+            <input type="text">
+            <label for="">Cidade</label>
+            <input type="text">
+            <label for="">Estado</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="">Qual o valor do produto?</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="">digite a descrição do produto</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+
+    <!-- reclamação -->
+    <form action="" id="reclamacaoMenu">
+        <h1>Reclamação</h1>
+        <div>
+            <label for="">Qual o seu nome?</label>
+            <input type="text" placeholder="nome:">
+        </div>
+
+        <div>
+            <label for="">você deseja receber a resposta por:</label>
+            <p onclick="menuZap3()">whatsApp:</p>
+            <p onclick="menuEmail3()">Email:</p>
+        </div>
+
+        <div id="email3">
+            <label for="">Qual o seu Email?</label>
+            <input type="text" placeholder="email:">
+        </div>
+
+        <div id="zap3">
+            <label for="">Qual o seu WhatsApp?</label>
+            <input type="text" placeholder="WhatsApp:">
+        </div>
+
+        <div>
+            <label for="">digite aqui a Sua reclamação:</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+
+    <script src="contato-script.js"></script>
+    <script src="contato-script2.js"></script>
+</body>
+</html>
