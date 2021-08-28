@@ -39,7 +39,7 @@ function showText(text, titulo, interval){
 
 showText(text, titulo, interval);
 
-
+// responsividade
 function responsivo(){
     document.getElementById("menu").style.display = "block";
     document.getElementById("menuResponsivo1").style.display = "none";
@@ -50,4 +50,11 @@ function responsivo2(){
     document.getElementById("menu").style.display = "none";
     document.getElementById("menuResponsivo2").style.display = "none";
     document.getElementById("menuResponsivo1").style.display = "block";
+}
+
+//cupons
+
+function cupon(){
+    document.getElementById("cuponBotao").style.display = "none";
+    document.getElementById("cuponRevelado").style.display = "block";
 }

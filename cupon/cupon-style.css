@@ -87,6 +87,59 @@ header h1{
     height: 50px;
 }
 
+/* cupons */
+
+main{
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+}
+
+main section{
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid;
+    height: 100px;
+    margin: 20px auto 20px auto;
+    backdrop-filter: blur(10px);
+}
+
+main section h3{
+    text-align: center;
+    margin: auto;
+    color: #ff0000;
+    font-size: 28px;
+}
+
+main section p{
+    width: 400px;
+    border-left: 1px solid;
+    margin: auto;
+}
+
+main section div h1{
+    width: 200px;
+    text-align: center;
+    padding: 22px;
+    color: #0000ff;
+    cursor: pointer;
+    font-size: 31px;
+}
+
+main section div h2{
+    width: 210px;
+    text-align: center;
+    padding: 22px;
+    color: #0000ff;
+    font-size: 31px;
+    display: none;
+}
+
+main section div h1:hover{
+    color: #d4d407;
+}
+
 /* responsividade */
 
 @media only screen and (max-width: 725px) {
