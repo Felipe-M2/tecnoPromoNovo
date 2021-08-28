@@ -51,10 +51,3 @@ function responsivo2(){
     document.getElementById("menuResponsivo2").style.display = "none";
     document.getElementById("menuResponsivo1").style.display = "block";
 }
-
-//cupons
-
-function cupon(){
-    document.getElementById("cuponBotao").style.display = "none";
-    document.getElementById("cuponRevelado").style.display = "block";
-}

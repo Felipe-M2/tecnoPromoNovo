@@ -14,6 +14,12 @@
     color: red;
 }
 
+body{
+    /* background: url(https://image.freepik.com/vetores-gratis/banner-de-techno-abstrato-com-desenho-hexagonal_1048-13087.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+
 /* barra de navegação */
 
 nav{
@@ -166,6 +172,7 @@ footer{
         padding: 0;
         box-sizing: border-box;
     }
+
     /* barra de navegação */
 
     nav{
